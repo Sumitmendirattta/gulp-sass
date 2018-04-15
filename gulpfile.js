@@ -26,3 +26,10 @@ gulp.task('default', ['sass', 'watch']);
 gulp.task('hello', function() {
     console.log('Hello Zell');
 });
+
+
+gulp.task('gulp-compile-scss', function () {
+  return gulp.src('app/scss/styles.scss') // Get source files with gulp.src
+    .pipe(sass()) // Sends it through a gulp plugin
+    .pipe(gulp.dest('app/css')) // Outputs the file in the destination folder
+})
