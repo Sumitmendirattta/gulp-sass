@@ -1,0 +1,27 @@
+{
+  "name": "gulp-demo",
+  "version": "1.0.0",
+  "description": "Gulp Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumitmendirattta/gulp-sass.git"
+  },
+  "keywords": [
+    "Gulp"
+  ],
+  "author": "Sumit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumitmendirattta/gulp-sass/issues"
+  },
+  "homepage": "https://github.com/Sumitmendirattta/gulp-sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {}
+}
